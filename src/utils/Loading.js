@@ -12,6 +12,7 @@ const Loading = () => {
             <Stack gap="20px" alignItems="center" color="#ffff">
                 <CircularProgress sx={{color:"white"}} />
                 <Typography variant="h6">Loading...</Typography>
+                <Typography variant="h6">Starting the Server It can take upto 20 to 40 seconds</Typography>
             </Stack>
         </Box>
     )
